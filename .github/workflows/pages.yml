@@ -42,7 +42,7 @@ jobs:
       id-token: write
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: https://stanley1106.github.io/hexopages/
     runs-on: ubuntu-latest
     steps:
       - name: Deploy to GitHub Pages
